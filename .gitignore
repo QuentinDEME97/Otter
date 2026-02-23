@@ -1,0 +1,23 @@
+# Rust build artifacts
+/target/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Backup files
+**/*.rs.bk
+
+# Cargo.lock is typically committed for binary projects/workspaces
+# but can be ignored for libraries. Since this is a workspace with a server and CLI,
+# we keep it tracked.
